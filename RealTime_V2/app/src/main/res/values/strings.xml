@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">FIR Filter</string>
+    <string name="file">Read File</string>
+    <string name="settings">Settings</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+
+</resources>
