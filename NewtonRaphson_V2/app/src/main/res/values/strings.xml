@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">Newton Raphson Demo</string>
+    <string name="settings">Settings</string>
+    <string name="start">Compute</string>
+    
+    <string name="prefNumerator">floatNumerator</string>
+    <string name="prefDenominator">floatDenominator</string>
+    <string name="prefIterations">iterations</string>
+    <string name="prefNumeratorShort">shortNumerator</string>
+    <string name="prefDenominatorShort">shortDenominator</string>
+
+</resources>

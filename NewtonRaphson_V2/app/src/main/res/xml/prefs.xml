@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" > 
+ <PreferenceCategory
+   android:summary="Filtering Parameters"
+   android:title="Settings" >
+	
+	<EditTextPreference
+     android:key="floatNumerator"
+     android:defaultValue="2.71"
+     android:gravity="left"
+     android:inputType="numberDecimal|numberSigned"
+     android:summary="Default: e"
+     android:title="Numerator" />
+  
+	<EditTextPreference
+     android:key="floatDenominator"
+     android:defaultValue="3.14"
+     android:gravity="left"
+     android:inputType="numberDecimal|numberSigned"
+     android:summary="Default: PI"
+     android:title="Denominator" />
+	
+	<EditTextPreference
+     android:key="iterations"
+     android:defaultValue="3"
+     android:gravity="left"
+     android:inputType="number"
+     android:summary="Default: 3"
+     android:title="Newton-Raphson Iterations" />
+	
+	<EditTextPreference
+     android:key="shortNumerator"
+     android:defaultValue="6000"
+     android:gravity="left"
+     android:inputType="numberSigned"
+     android:summary="Default: 6000"
+     android:title="Q15 Numerator" />
+	
+	<EditTextPreference
+     android:key="shortDenominator"
+     android:defaultValue="8192"
+     android:gravity="left"
+     android:inputType="numberSigned"
+     android:summary="Default: 8192"
+     android:title="Q15 Denominator" />
+  	
+ </PreferenceCategory>
+</PreferenceScreen>
